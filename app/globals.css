@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+  @apply text-gray-900; /* 더 진한 회색 */
+  /* 또는 */
+  /* @apply text-black; */ /* 완전한 검정색 */
+}

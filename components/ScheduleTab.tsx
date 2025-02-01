@@ -4,6 +4,7 @@ const ScheduleTab = () => {
   return (
     <div className="space-y-6">
       <h2 className="text-2xl font-bold text-blue-600">🗓️ 일정표 (2월 2일 ~ 2월 7일)</h2>
+      <p className="text-gray-600">대략적인 일정이고 언제든지 추가/변경/제거 가능하니까 가고싶은 곳 있거나 하면 편하게 얘기해주세요!</p>
 
       <table className="w-full table-auto border border-gray-300 shadow-md rounded-lg overflow-hidden">
         <thead className="bg-blue-500 text-white">
